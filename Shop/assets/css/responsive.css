@@ -1,0 +1,84 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+.header__cart {
+    margin: 0 0 0 29px;
+}
+
+.header {
+    height: 68px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.header__with-search {
+    padding: 13px;
+}
+.header__soft-navbar {
+    display: flex;
+}
+.hide-on-moble-tablet {
+    display: none;
+  }
+.app_container {
+    margin-top: 114px;
+}
+.mobile__category {
+    display: block;
+}
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+.hide-on-tablet {
+    display: none;
+}
+.header__soft-navbar {
+    margin-top: -4px;
+}
+
+}
+/* Mobile */
+@media (max-width: 739px) {
+.hide-on-mobile {
+    display: none;
+}
+.header__search-mobile .header__search-mobile-icon {
+    display: block;
+}
+.header__soft-navbar-link {
+    padding: 7px 26px;
+}
+.header__with-search {
+    margin: -16px 0;
+    justify-content: space-between;
+}
+.header__logo {
+    padding: 0;
+}
+.header__search {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 70px;
+    display: none;
+    animation: Checkbox linear 0.2s ;
+}
+@keyframes Checkbox {
+    from {
+        opacity: 0;
+        top: 45px;
+    }
+    to {
+        opacity: 1;
+        top: 70px;
+    }
+}
+.number__page-one {
+    padding: 5px 4px;
+}
+.app_container-wide {
+    padding: 0 4px;
+}
+
+}
